@@ -4,7 +4,7 @@
 4. #### Create a new project
     ------------------- 
     * npm init
-    -> package.json
+        * package.json
     * npm install jquery
         * package.json
         * package-lock.json
