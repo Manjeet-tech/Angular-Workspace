@@ -27,3 +27,14 @@
 ---
 * ng new todo
 * ng serve
+
+10. #### CLI commands
+* ng lint
+* ng build
+* ng test 
+![](2023-07-23-14-45-53.png)
+
+11. #### Resolving build issue - Error message "error:0308010C:digital envelope routines::unsupported"
+
+[Reference](https://stackoverflow.com/questions/69692842/error-message-error0308010cdigital-envelope-routinesunsupported)
+
