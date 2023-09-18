@@ -42,22 +42,22 @@ ng serve
 ## __MODULE III__
 ---
 ### 7. CLI commands
-* ng lint [Refer Here](https://angular.io/cli/lint)
+* __ng lint__ [Refer Here](https://angular.io/cli/lint)
 ```
 Linting is the process of checking the code quality and style, and finding and fixing errors or potential problems.
  ```
-* ng build [Refer Here](https://angular.io/cli/build)
+* __ng build__ [Refer Here](https://angular.io/cli/build)
 ```
 * It is used to build and compile our Angular application into a distributable format that can be deployed to a web server or hosting platform.
 * Generate output files in a dist directory by default (configurable).
 ```
-* ng test [Refer Here](https://angular.io/cli/test)
+* __ng test__ [Refer Here](https://angular.io/cli/test)
 ```
 * Used to run unit tests for our Angular application.
 * It provides a convenient way to execute unit tests written using testing frameworks like Jasmine and test runners like Karma.
 * The tests are typically located in files with a .spec.ts extension (e.g., app.component.spec.ts).
 ```
-* ng ete [refer Here](https://angular.io/cli/e2e)
+* __ng ete__ [refer Here](https://angular.io/cli/e2e)
 ```
 * Builds and serves an Angular application, then runs end-to-end tests using Protractor.
 * code coverage 
@@ -72,6 +72,32 @@ Linting is the process of checking the code quality and style, and finding and f
 ```
 choco install nodejs.install --version=16.0.0 --allow-downgrade
 ```
+
+* __tsconfig.json__ [Refer Here](https://angular.io/guide/typescript-configuration#tsconfig)
+
+![image](../summary/images/ang4.png)
+
+![image](../summary/images/ang3.png)
+
+```
+The tsconfig.json file is a configuration file for the TypeScript compiler. 
+It specifies the compiler options that should be used when compiling TypeScript to JavaScript code in our Angular project.
+```
+* __package.json__
+![image](../summary/images/ang5.png)
+![image](../summary/images/ang6.png)
+
+[Refer Here](https://www.codestack.net/angular/getting-started/package/)
+
+```
+ * It is a file that manages the npm dependencies of an Angular project. 
+ * It contains information about the project metadata, scripts, dependencies, and devDependencies. 
+ * The package.json file is used by the npm client to download and install the packages that are required for the project to run and build. 
+```
+[Refer Here](https://angular.io/guide/npm-packages)
+
+[Refer Here](https://www.scaler.com/topics/nodejs/node-js-package-json/)
+
 
 
 
