@@ -87,7 +87,7 @@ It specifies the compiler options that should be used when compiling TypeScript 
 ![image](../summary/images/ang5.png)
 ![image](../summary/images/ang6.png)
 
-[Refer Here](https://www.codestack.net/angular/getting-started/package/)
+[Refer Here For More Content](https://www.codestack.net/angular/getting-started/package/)
 
 ```
  * It is a file that manages the npm dependencies of an Angular project. 
@@ -98,6 +98,22 @@ It specifies the compiler options that should be used when compiling TypeScript 
 
 [Refer Here](https://www.scaler.com/topics/nodejs/node-js-package-json/)
 
+* __main.ts__
 
+```
+The main.ts file in Angular 8 is the entry point of the application. 
+It is responsible for bootstrapping the root module, which is usually the AppModule, and launching the application in the browser. 
+
+The main.ts file typically imports the following modules and functions:
+
+platformBrowserDynamic: This module provides a method to create a platform that runs the application in a browser with just-in-time (JIT) compilation.
+
+enableProdMode: This function enables the production mode for the application, which disables assertions and other checks within the framework.
+
+AppModule: This module is the root module of the application, which defines how to assemble the application. It usually imports other feature modules and declares components, directives, pipes, and providers.
+```
+![image](../summary/images/ang7.png)
+
+![image](../summary/images/ang8.png)
 
 
