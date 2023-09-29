@@ -32,7 +32,7 @@ ng version
 
 [Reference](https://www.c-sharpcorner.com/article/how-to-fix-ps1-can-not-be-loaded-because-running-scripts-is-disabled-on-this-sys/)
 
-### 6.  Creating new Angular Project Using CLI
+### 6. Creating new Angular Project Using CLI
 ----
 ```
 ng new todo 
@@ -41,7 +41,7 @@ ng serve
 
 ## __MODULE III__
 ---
-### 7. CLI commands
+### 7. __CLI commands__
 * __ng lint__ [Refer Here](https://angular.io/cli/lint)
 ```
 Linting is the process of checking the code quality and style, and finding and fixing errors or potential problems.
@@ -72,6 +72,8 @@ Linting is the process of checking the code quality and style, and finding and f
 ```
 choco install nodejs.install --version=16.0.0 --allow-downgrade
 ```
+
+### __Angular Project Structure__
 
 * __tsconfig.json__ [Refer Here](https://angular.io/guide/typescript-configuration#tsconfig)
 
@@ -115,5 +117,83 @@ AppModule: This module is the root module of the application, which defines how 
 ![image](../summary/images/ang7.png)
 
 ![image](../summary/images/ang8.png)
+
+
+* __index.html__
+
+```
+* It is the main file that is loaded in the browser when an Angular application starts.
+
+* It contains the root element of the application, which is usually <app-root></app-root>, where the app component is rendered. 
+
+* It also contains references to the stylesheets and scripts that are required for the application to run. 
+
+* index.html is the entry point of the Angular application, and it is where Angular bootstraps the app module and initializes the app component.
+```
+![image](../summary/images/ang9.png)
+
+[Refer Here](https://dev.to/casperns/how-angular-trigger-indexhtml-and-start-working-1l46)
+
+* __test.ts__
+
+```
+It is used to configure the testing environment and run the tests for your Angular application.
+
+It imports some libraries and modules that are necessary for testing, such as Jasmine, Karma, and Angular testing utilities.
+
+It loads all the spec files (files with .spec.ts extension) that contain the test cases for your components, services, pipes, etc.
+
+It executes the tests using the TestBed class, which creates a dynamic testing module that emulates an Angular @NgModule.
+```
+![image](../summary/images/ang10.png)
+
+[Refere Here](https://angular.io/guide/testing)
+
+[Refere Here Unit Test](https://www.digitalocean.com/community/tutorials/angular-introduction-unit-testing)
+
+* __polyfills.ts__
+
+```
+Polyfills in angular are few lines of code which make your application compatible for different browsers. The code we write is mostly in ES6(New Features: Overview and Comparison) and is not compatible with IE or firefox and needs some environment setups before being able to be viewed or used in these browsers.
+
+Polyfills.ts was provided by angular to help you do away with need to specifically setup everything.
+
+polyfills.ts also includes polyfills that are needed by Angular and some browsers to support features of modern web platforms. 
+
+Polyfills are scripts that provide functionality that is not natively available in some browsers. For example, polyfills can enable features such as promises, observables, animations, web components, etc. in older browsers
+```
+[Refere Here](https://angular.io/guide/browser-support)
+
+* __environment.ts__
+
+```
+It is used to store the configuration settings for our Angular application, such as the API URL, the production mode, the feature flags, etc.
+
+environment.ts is the default environment file and it is used when we run or build your application in development mode.
+
+We can create different environment files for different environments, such as production, staging, testing, etc. by creating separate files with the same name but different extensions. For example, environment.prod.ts is the environment file for production mode.
+```
+![image](../summary/images/ang11.png)
+![image](../summary/images/ang12.png)
+
+[Refer Angular](https://angular.io/guide/build)
+
+[Refer Medium](https://medium.com/@hongtatyew/about-environment-ts-in-your-angular-applications-50646ab08c81)
+
+### 8. __Angular Component__
+
+__Project Architecture Component Design__
+![image](../summary/images/ang13.png)
+
+__Component Tree Diagram__
+![image](../summary/images/ang14.png)
+
+__Flow Diagram Selector Operation__
+![image](../summary/images/ang15.png)
+
+__Flow Diag- Interpolation{{Data}}__
+![image](../summary/images/ang16.png)
+
+
 
 
