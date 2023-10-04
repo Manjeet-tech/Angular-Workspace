@@ -194,6 +194,12 @@ __Flow Diagram Selector Operation__
 __Flow Diag- Interpolation{{Data}}__
 ![image](../summary/images/ang16.png)
 
+### 9. __Flow diagram component.html and index.html and component.css__
 
+![image](../summary/images/ang17.png)
 
+### 10. __ng generate__
+
+ngModule
+declarations
 
